@@ -47,6 +47,31 @@ nav {
     padding: 5%;
 }
 
+#welcome::after {
+    content: "";
+    background-image: url("https://lh3.googleusercontent.com/Jkgbnchi7yMEZzh5hzP3ZgrMgCGh4o05RUuQ1uLCpHB0MHA8HiCG2Iq68wsuGXdUF7tBBVYw=w1080-h608-p-no-v0");
+    background-color: rgb(27, 27, 27);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+}
+
+#img-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    opacity: 0.1;
+}
+
 .wrapper {
     margin: 13%;
     max-width: 666px;
