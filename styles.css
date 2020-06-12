@@ -61,15 +61,6 @@ nav {
     right: 0;
     position: absolute;
     z-index: -1;   
-  }
-}
-
-#img-overlay {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    background-color: white;
-    opacity: 0.1;
 }
 
 .wrapper {
@@ -115,29 +106,23 @@ nav {
     margin: 0;
 }
 
-#map {
-    opacity: 0.9;
-    margin: 0;
-    float: right;
-}   
-
 #socials {
     margin-left: 3%;
 }
 
-#socials a {
+#cinfo a {
     text-decoration: none;
     color: rgb(238, 238, 238);
     transition: color 0.2s;
 }
 
-#socials a i {
+#cinfo a i {
     font-size: 1.5em;
     margin: 0.1em;
     vertical-align: middle;
 }
 
-#socials a:hover {
+#cinfo a:hover {
     color: rgb(233, 50, 50);
 }
 
