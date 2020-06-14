@@ -107,13 +107,18 @@ h1 {
 }
 
 #contact {
-    padding: 3em;
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #cinfo {
-    width: 50%;
-    display: flex;
+    width: 45em;
     line-height: 1.25;
+    display: flex;
+    margin: 2.5em;
+    white-space: nowrap;
+    flex-wrap: inherit;
 }
 
 #openTimes {
