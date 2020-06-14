@@ -75,21 +75,33 @@ nav {
     flex-wrap: wrap;
 }
 
-#welcome h1 {
+h1 {
     font-family: 'Metal Mania', cursive;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: rgb(233, 50, 50);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    margin: 0;
 }
 
 #events {
-    padding: 2em 3em;
-    height: 75vh;
+    padding: 3em;
+    height: 85vh;
+    /* display: flex; */
+}
+
+#events #text {
+    width: 50vw;
+    padding: 0 5em;
+}
+
+#events h1 {
+    margin: 0;
 }
 
 #events iframe {
     float: right;
+    min-width: 500px;
 }
 
 #contact {
@@ -119,7 +131,7 @@ nav {
     margin-left: 3%;
 }
 
-#cinfo a {
+a {
     text-decoration: none;
     color: rgb(238, 238, 238);
     transition: color 0.2s;
@@ -131,7 +143,7 @@ nav {
     vertical-align: middle;
 }
 
-#cinfo a:hover {
+a:hover {
     color: rgb(233, 50, 50);
 }
 
@@ -148,15 +160,6 @@ footer {
 #maillist {
     text-align: center;
     padding: 1%;
-}
-
-#maillist h1{
-font-family: 'Metal Mania', cursive;
-font-size: 2.5em;
-color: rgb(233, 50, 50);
-text-shadow: rgba(0, 0, 0, 0.295);
-font-weight: 500;
-margin: 0;
 }
 
 #maillist input:nth-child(1) {
