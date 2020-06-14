@@ -107,7 +107,7 @@ h1 {
 }
 
 #contact {
-    padding: 5%;
+    padding: 3em;
 }
 
 #cinfo {
@@ -117,7 +117,7 @@ h1 {
 }
 
 #openTimes {
-    margin-left: 1em;
+    margin: 0 1em;
     height: fit-content;
 }
 
@@ -130,7 +130,7 @@ h1 {
 }
 
 #socials {
-    margin-left: 3%;
+    margin: 0 3%;
 }
 
 a {
