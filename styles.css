@@ -70,13 +70,11 @@ h1 {
 #events {
     margin: 1em;
     padding: 2em;
-    height: 85vh;
-    /* display: flex; */
 }
 
 #events #text {
-    width: 50vw;
-    padding: 0 5em;
+    width: 45vmax;
+    margin: 1em;
 }
 
 #events h1 {
