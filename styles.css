@@ -81,9 +81,8 @@ h1 {
     margin: 0;
 }
 
-#events iframe {
+#events #iframe {
     float: right;
-    min-width: 500px;
 }
 
 #contact {
