@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-link {
+    align-self: flex-end;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cinfo {
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: inherit;
+}
+
+#menuu {
+    display: flex;
+    justify-content: space-evenly;
+}
