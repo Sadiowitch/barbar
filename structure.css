@@ -38,6 +38,23 @@ nav {
     #iframe iframe:nth-child(3) {
         display: block;
     }
+
+    #cinfo {
+        justify-content: center;
+        width: max-content;
+        align-content: center;
+        text-align: center;
+    }
+
+    #openTimes {
+        margin: 1em 0;
+    }
+
+    #socials {
+        margin: 1em auto;
+        text-align: left;
+        width: fit-content;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
