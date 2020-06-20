@@ -57,6 +57,34 @@ nav {
     #iframe iframe:nth-child(3) {
         display: block;
     }
+
+    #contact iframe {
+        width: 80%;
+    }
+
+    #cinfo {
+        width: 80%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    #cinfo img {
+        width: 30%;
+        height: 30%;
+        max-width: 200px;
+    }
+
+    #openTimes {
+        display: inline; 
+        white-space: nowrap; 
+    }
+
+    .socsp {
+        display: inline; 
+        white-space: nowrap; 
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -99,6 +127,17 @@ nav {
         display: flex;
         justify-content: space-evenly;
     }
+
+    #contact iframe {
+        width: 80%;
+    }
+
+    #cinfo {
+        width: 80%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
 }
 
 @media only screen and (min-width: 590px) and (max-width: 767px) {
@@ -129,7 +168,7 @@ nav {
     }
 
     #events #text {
-        width: 55vmin;
+        width: 60vmin;
     }
     
     .flex {
