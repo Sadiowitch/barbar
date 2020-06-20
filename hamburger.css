@@ -1,0 +1,38 @@
+.icon {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+    transition: all 0.4s;
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .nav-link:not(:first-child) {
+        display: none;
+    }
+
+    nav.responsive {
+        text-align: center;
+        flex-direction: column;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-link {
+        display: block;
+    }
+}
