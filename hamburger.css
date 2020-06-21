@@ -21,6 +21,10 @@
         display: none;
     }
 
+    .nav-link:hover {
+        box-shadow: none;
+    }
+
     nav.responsive {
         text-align: center;
         flex-direction: column;
@@ -30,4 +34,3 @@
         align-content: center;
     }
 }
-4
